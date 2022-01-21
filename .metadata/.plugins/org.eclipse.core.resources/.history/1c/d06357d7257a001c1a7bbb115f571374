@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class jokenpo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Variaveis
+		String playerHumano;
+		String playerComputador;
+
+		Scanner leitor = new Scanner(System.in);
+		
+		System.out.println("Bem vindo ao Jokenpo :");
+		System.out.println("Ëscolha sua jogada:");
+		System.out.println("pe = Pedra, pa = Papel, te = Tesoura");
+		
+		playerHumano = leitor.next();
+		
+		if (playerHumano == "p") {
+			System.out.println("digite um valor recomendado: ");
+			playerHumano = leitor.next();
+		}
+		
+	}
+
+}

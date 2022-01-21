@@ -1,0 +1,19 @@
+package projetoTeste;
+
+public class helloWorld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello World");
+		System.out.println("carro");
+		
+		int peso = 76;
+		double altura = 1.77;
+		
+		System.out.println(peso/(altura*altura));
+		
+		System.out.println("O peso do usuario eh  " + peso);
+
+	}
+
+}

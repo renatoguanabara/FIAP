@@ -1,0 +1,30 @@
+package projetoTeste;
+
+import java.util.Scanner;
+
+public class helloWorld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner leitor = new Scanner(System.in);
+		
+		System.out.println("Hello World");
+		System.out.println("carro");
+		
+		int pesoDoUsuario = leitor.nextInt();
+		double alturaDoUsuario = leitor.nextDouble();
+		
+		
+		
+		double imc=pesoDoUsuario / (alturaDoUsuario * alturaDoUsuario);
+		
+		System.out.println(imc);
+		
+		System.out.println("O peso do usuario eh  " + pesoDoUsuario);
+		
+		
+
+	}
+
+}

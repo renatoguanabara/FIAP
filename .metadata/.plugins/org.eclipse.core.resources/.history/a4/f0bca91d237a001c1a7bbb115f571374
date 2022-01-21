@@ -1,0 +1,53 @@
+package projetoTeste;
+
+import java.util.Scanner;
+
+public class helloWorld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//ler entrada do teclado 
+		Scanner leitor = new Scanner(System.in);
+		
+		
+		//declaracao de variaveis 
+		int pesoDoUsuario = 0;
+		double alturaDoUsuario = 0,imc;
+		String nomeDoUsuario;
+		
+		System.out.println("qual eh o seu nome");
+		nomeDoUsuario = leitor.nextLine();
+		
+		// Criando Variaveis para calculo
+		System.out.println( nomeDoUsuario +"Digite seu peso" );
+		pesoDoUsuario = leitor.nextInt();
+		
+		//Craindo altura
+		System.out.println("Digite sua altura");
+		alturaDoUsuario = leitor.nextDouble();
+		
+		//calculo do imc
+		imc = pesoDoUsuario / (alturaDoUsuario * alturaDoUsuario);
+		
+		leitor.close();
+		
+		//Print nome e peso do usuario 
+		System.out.println(nomeDoUsuario + "seu IMC eh " + imc);
+		
+
+		//menssagem de ola mundo
+		System.out.println("Hello World");
+		
+		//menssagem de carro 
+		System.out.println("carro");
+
+		System.out.println(imc);
+		
+		System.out.println("O peso do usuario eh  " + pesoDoUsuario);
+		
+		
+
+	}
+
+}
